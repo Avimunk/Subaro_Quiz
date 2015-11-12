@@ -1,0 +1,216 @@
+.smoke-base {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  visibility: hidden;
+  opacity: 0;
+  -moz-transition: all .3s;
+  -webkit-transition: opacity .3s;
+  -o-transition: all .3s;
+  transition: all .3s;
+}
+
+.smoke-base.smoke-visible {
+  opacity: 1;
+  visibility: visible;
+}
+
+.smokebg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.smoke-base .dialog {
+  position: absolute
+}
+
+.dialog-prompt {
+  margin-top: 5px;
+  text-align: center;
+}
+
+.dialog-buttons {
+  margin: 10px 0 5px 0
+}
+
+.smoke {
+  font-family: sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 30px;
+  line-height: 130%;
+}
+
+.dialog-buttons button {
+  display: inline-block;
+  vertical-align: baseline;
+  cursor: pointer;
+  font-family: sans-serif;
+  font-style: normal;
+  text-decoration: none;
+  border: 0;
+  outline: 0;
+  margin: 0 5px;
+  -webkit-background-clip: padding-box;
+  font-size: 13px;
+  line-height: 13px;
+  font-weight: bold;
+  padding: 9px 12px;
+}
+
+.dialog-prompt input {
+  margin: 0;
+  border: 0;
+  font-family: sans-serif;
+  outline: none;
+  border: 1px solid #333;
+  width: 97%;
+  background-color: #fff;
+  font-size: 15px;
+  padding: 5px;
+}
+
+.smoke-base {
+  background: rgba(0,0,0,.3);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#90000000,endColorstr=#900000000);
+}
+
+.smoke-base .dialog {
+  top: 25%;
+  left: 25%;
+  width: 50%;
+}
+
+.smoke-base .dialog-inner {
+  padding: 15px
+}
+
+.smoke-base .dialog-inner h3{
+    background-color:transparent;
+    text-align:center;
+    text-shadow:1px 1px 1px #fff;
+    font-weight:bold;
+    color:#666;
+    padding:5px 0px 0px 10px;
+    font-size:22px;
+}
+
+.smoke-base .dialog-inner p{
+    cursor:pointer;
+    text-align:left;
+    clear:both;
+    margin:5px 0px;
+    background-color:#f4f4f4;
+    padding:5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border:1px solid #005375;
+	color: #000;
+	-moz-box-shadow: 0 0 2px 2px #f4f4f4;
+	-webkit-box-shadow: 0 0 2px 2px #f4f4f4;
+	box-shadow: 0 0 2px 2px #f4f4f4;
+	font-size:14px;
+}
+
+.smoke-base .dialog-inner p.wrong{
+    color: #FFFFFF;
+    background-color: rgb(136, 45, 41);
+	border:1px solid rgb(136, 45, 41);
+}
+.smoke-base .dialog-inner p.right{
+    color: #FFFFFF;
+    background: #005375;
+}
+.smoke-base .dialog-inner p.explanation-text{
+    font-size: 12px;
+	padding:5px;
+	border: 0;
+	background: none;
+	box-shadow: none;
+}
+
+.smoke {
+  text-transform: uppercase;
+  background-color: rgba(255,255,255,1);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffffff,endColorstr=#ffffff);
+}
+
+.dialog-buttons button {
+  border-radius: 5px;
+  text-transform: uppercase;
+  background-color: rgba(0,0,0,.9);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#222222,endColorstr=#222222);
+  color: #fff;
+}
+
+button.cancel {
+  background-color: rgba(0,0,0,.7);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#444444,endColorstr=#444444);
+}
+
+.queue{
+	display:none;
+}
+
+
+.smoke-base {
+	background: none;
+}
+
+.smoke-base .dialog {
+  top: 25%;
+  left: 30%;
+  width: 40%;
+}
+
+.smoke-base .dialog-inner {
+	padding: 10px;
+}
+
+.smoke {
+    text-transform: none;
+	color:#555;
+	font-weight: normal;
+    background-color: #fff;
+    border-radius: 10px;
+    border:10px solid #3DAEE3;
+    font-size:24px;
+}
+
+.smoke h2,
+.smoke p{
+	margin: 10px 0;
+}
+
+.dialog-buttons {
+	margin: 0;
+	float:right;
+	position: absolute;
+	top:0;
+	right:0;
+}
+
+.dialog-buttons button {
+    border-radius: 50%;
+    text-transform: uppercase;
+    background-color: #3DAEE3;
+    color: #fff;
+    font-size:11px;
+    padding:6px 9px;
+}
+
+button.cancel {
+	background-color: #777;
+	color:#fff;
+}
+
+.dialog-prompt input{
+	width:300px;
+	text-align:center;
+	background-color:#ccc;
+}

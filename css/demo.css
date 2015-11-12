@@ -1,0 +1,110 @@
+body{
+    background: url('../img/landscape_33.jpg') top left fixed;
+    font:normal 11px/1.5em Arial, Helvetica, sans-serif;
+}
+.tabContaier{
+/*background:#f0f0f0;
+border:1px solid #fff;*/
+margin:40px auto 20px;
+padding:20px;
+position:relative;
+width:940px;
+}
+.tabContaier ol{
+    overflow:hidden;
+    border-right:1px solid #fff;
+    height:35px;
+    position:absolute;
+    z-index:100;
+    margin:0;
+    padding:0;
+}
+.tabContaier li{
+    float:left;
+    list-style:none;
+}
+.tabContaier li a{
+    background:#ddd;
+    border:1px solid #fcfcfc;
+    border-right:0;
+    color:#666;
+    cursor:pointer;
+    display:block;
+    height:35px;
+    line-height:35px;
+    padding:0 30px;
+    text-decoration:none;
+    text-transform:uppercase;
+}
+.tabContaier li a:hover{
+    background:#eee;
+}
+.tabContaier li a.active{
+    background:#fbfbfb;
+    border:1px solid #fff;
+    border-right:0;
+    color:#333;
+}
+.tabDetails{
+    background:rgba(0,0,0,0.8);
+/*border:1px solid #fff;*/
+    margin:34px 0 0;
+    color: #fff;
+}
+.tabContents{
+    padding:20px
+}
+.tabContents h1{
+    font:normal 24px/1.1em Georgia, "Times New Roman", Times, serif;
+    padding:0 0 10px;
+}
+.tabContents p{
+    padding:0 0 10px;
+}
+/* Demo Buttons Style */
+.sq-demos {
+    text-align:center;
+    display: block;
+    line-height: 30px;
+    padding: 5px 0px;
+}
+
+.sq-demos a {
+    font-family: 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0px 4px;
+    padding: 0px 6px;
+    color: #8c8c8c;
+    line-height: 20px;
+    font-size: 12px;
+    font-weight: 700;
+    text-shadow: 1px 1px 1px #fff;
+    border: 1px solid #fff;
+background: #ffffff; /* Old browsers */
+background: -moz-linear-gradient(top, #ffffff 0%, #f6f6f6 47%, #ededed 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(47%,#f6f6f6), color-stop(100%,#ededed)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #ffffff 0%,#f6f6f6 47%,#ededed 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #ffffff 0%,#f6f6f6 47%,#ededed 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #ffffff 0%,#f6f6f6 47%,#ededed 100%); /* IE10+ */
+background: linear-gradient(top, #ffffff 0%,#f6f6f6 47%,#ededed 100%); /* W3C */
+box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.sq-demos a:hover {
+    color: #333;
+    background: #fff;
+}
+
+.sq-demos a:active {
+    background: #fff;
+}
+
+.sq-demos a.current-demo,
+.sq-demos a.current-demo:hover {
+    background: #555;
+    border-color: #555;
+    color: #ddd;
+    text-shadow: 0 1px 1px rgba(0,0,0,0.5);
+    box-shadow: 0 1px 0 rgba(255,255,255,0.2), inset 0 1px 1px rgba(0,0,0,0.5);
+}
